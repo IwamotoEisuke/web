@@ -1,5 +1,31 @@
 @charset "utf-8";
 
+#font0 {
+    color: rgb(130, 220, 245);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: sans-serif;
+    background-color: darkslategrey;
+    line-height: 1.8;
+}
+
+#fontshadow {
+    font-size: 96px;
+    font-weight: 700;
+    font-family: serif;
+    color: silver;
+    text-shadow:
+    2px  2px 1px #003366,
+    -2px  2px 1px #003366,
+    2px -2px 1px #003366,
+    -2px -2px 1px #003366,
+    2px  0px 1px #003366,
+    0px  2px 1px #003366,
+    -2px  0px 1px #003366,
+    0px -2px 1px #003366;
+    text-align: center;
+}
+
 #font1 {
     color: cyan;
     font-size: 24px;
@@ -24,4 +50,21 @@
 #layout2 {
     text-align: center;
     line-height: 160%;
+}
+
+#text1 {
+     display  : inline-block;
+  animation: rollkAnime 4.5s linear infinite;
+  color    : #6666ff;
+  font-size: 300%
+}
+@keyframes rollkAnime{
+   50% {
+         color    : #66ff66;
+         transform: rotateY(180deg);
+       }
+  100% {
+         color    : #6666ff;
+         transform: rotateY(360deg);
+       }
 }
