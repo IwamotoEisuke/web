@@ -1,0 +1,27 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+}
+h1,h2,h3 {
+    color: darkslateblue;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 20em;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+.img1 {
+    width: 160px;
+    height: 160px;
+}
+.img2 {
+    width: 40%;
+    height: 40%;
+}
+.container {
+    background-color: rgba(205, 219, 245, 0.224);
+    width: 60%;
+    margin: auto;
+}
