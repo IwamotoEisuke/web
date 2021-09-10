@@ -1,0 +1,40 @@
+
+html {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    border-style: none none none solid;
+    border-color: darkorange;
+    padding: 2px 2px 2px 6px;
+}
+
+h2 {
+    border-top: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
+}
+
+.inline {
+    display: inline-block;
+    width: 25%;
+    height: 6rem;
+    background-color: rgba(224, 219, 149, 0.489);
+}
+
+p {
+    margin: 4px;
+}
+
+.p2 {
+    padding: 3rem 0 2rem 0;
+}
+
+.p3 {
+    font-size: 2rem;
+    padding: 0 0 3rem 0;
+}
