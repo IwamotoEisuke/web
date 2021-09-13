@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.inline-block {
+    display: inline-block;
+    /* 垂直位置揃え */
+    vertical-align: top;
+    width: 24%; /* 幅 */
+	height: 24px;
+	border-bottom: 24px solid #ffe23f; /* 高さ */
+	border-left: 25px solid transparent; /* 左側下辺の伸び */
+	border-right: 25px solid transparent; /* 右側下辺の伸び */
+	box-sizing: border-box;
+}
+.inline-block>a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+/* 文字の大きさ */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.6rem;
+
+}
+
+.mb-1rem {
+    /* marginは上下相殺されるのでbottomのみ指定 */
+    margin-bottom: 1rem;
+}
+
+/* flex コンテナの最小設定 */
+.flex {
+    display: flex;
+}
+/* flex アイテムの最小設定 */
+.item {
+    flex: auto;
+    width: 33%;
+    border: 4px white solid;
+    background-color: rgba(253, 253, 104, 0.401);
+}
