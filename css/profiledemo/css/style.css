@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Noto Serif JP', serif;
+}
+
+/* flex コンテナの最小設定 */
+.flex {
+    display: flex;
+}
+/* flex アイテムの最小設定 */
+.item {
+    flex: auto;
+    width: 33%;
+}
