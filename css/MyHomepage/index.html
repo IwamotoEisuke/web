@@ -14,11 +14,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
     <!-- link for css -->
+
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1 class="demo-title">デモンストレーション</h1>
+        <h1 class="demo-title" id="top">デモンストレーション</h1>
         <div class="carousel">
             <ul class="carousel-area">
                 <li class="carousel-list tab current"><img class="carousel-img" src="./img/flower.jpg" alt="1"></li>
@@ -46,28 +48,58 @@
     </header>
     <main>
         <!-- ゲートページ -->
-        <section class="menu-box">
-            <h2>初めまして</h2>
-        </section>
-        <section class="menu-box">
-            <h2>Profile</h2>
-            <p></p>
-        </section>
-        <section class="menu-box">
-            <h2>Music</h2>
-        </section>
-        <section class="menu-box">
-            <h2>Games</h2>
-        </section>
-        <section class="menu-box">
-            <h2>Illust</h2>
-        </section>
+        <div class="main-frame">
+            <section class="menu-box" id="gatepage">
+                <h2>初めまして</h2>
+                <p>はじめまして、岩本英輔の自己紹介ページにアクセスいただきありがとうございます。ここでは自分の略歴と趣味について少しお話させてください。以下の目次をクリックして詳細のページをご覧ください。</p>
+                <ul>
+                    <li class="tab2 current hidden"><a href="#gatepage"></a></li>
+                    <li class="tab2"><a href="#profile">Profile</a></li>
+                    <li class="tab2"><a href="#music">Music</a></li>
+                    <li class="tab2"><a href="#games">Games</a></li>
+                    <li class="tab2"><a href="#illustration">illustration</a></li>
+                </ul>
+                <div class="pagelink">
+                    <p><a href="#gatepage">このページのトップに戻る</a></p>
+                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                </div>
+            </section>
+            <section class="menu-box" id="profile">
+                <h2>Profile</h2>
+                <p></p>
+                <div class="pagelink">
+                    <p><a href="#profile">このページのトップに戻る</a></p>
+                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                </div>
+            </section>
+            <section class="menu-box" id="music">
+                <h2>Music</h2>
+                <div class="pagelink">
+                    <p><a href="#music">このページのトップに戻る</a></p>
+                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                </div>
+            </section>
+            <section class="menu-box" id="games">
+                <h2>Games</h2>
+                <div class="pagelink">
+                    <p><a href="#games">このページのトップに戻る</a></p>
+                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                </div>
+            </section>
+            <section class="menu-box" id="illustration">
+                <h2>Illust</h2>
+                <div class="pagelink">
+                    <p><a href="#illustration">このページのトップに戻る</a></p>
+                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-        <p> @2021 IwamotoEisuke</p>
+        <p class="footer"> @2021 IwamotoEisuke</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./JS/jstest.js"></script>
+    <script type="text/javascript" src="./JS/script.js"></script>
 </body>
 </html>
