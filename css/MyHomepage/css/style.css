@@ -41,6 +41,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* ここまでベースcss */
 /* ここからカルーセルの記述 */
+
+header {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .carousel {
     width: 600px;
     height: calc(600px * 0.5625);
@@ -63,6 +70,10 @@ h1,h2,h3,h4,h5,h6 {
     background-repeat: no-repeat;
 }
 @media screen and (max-width: 600px) {
+    header {
+        width: 400px;
+        height: 250px;
+    }
     .carousel {
         width: 300px;
         height: calc(300px * 0.5625);
