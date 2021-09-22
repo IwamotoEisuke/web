@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 1em 0;
     text-align: center;
     color: #fefefe;
-    background-color: royalblue;
+    background-color: black;
 }
 /* ここまでベースcss */
 /* ここからカルーセルの記述 */
@@ -68,6 +68,20 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    /* テキストの装飾 */
+    align-items: center;
+    display: flex;
+
+}
+.carousel-title {
+    margin-left: 56%;
+    margin-right: 10%;
+    font-size: 42px;
+    color       : #ffffff;
+    text-shadow:  2px  2px 10px #777 ,
+                        -2px  2px 10px #777 ,
+                        2px -2px 10px #777 ,
+                        -2px -2px 10px #777;
 }
 @media screen and (max-width: 600px) {
     header {
@@ -85,16 +99,16 @@ header {
     }
 }
 .carousel-list:nth-child(1) {
-    background-image: url(./../img/flower.jpg);
+    background-image: url(./../img/flower3.jpg);
 }
 .carousel-list:nth-child(2) {
-    background-image: url(./../img/guitar.jpg);
+    background-image: url(./../img/kompelive1.jpg);
 }
 .carousel-list:nth-child(3) {
     background-image: url(./../img/livepic.jpg);
 }
 .carousel-list:nth-child(4) {
-    background-image: url(./../img/valorant.jpg);
+    background-image: url(./../img/dqpic.jpg);
 }
 .carousel-list:nth-child(5) {
     background-image: url(./../img/illustpen.jpg);
@@ -124,7 +138,7 @@ header {
 .arrow-btn {
     width: 48px;
     height: 48px;
-    background-color: rgba(113, 135, 245, 0.8);
+    background-color: hsla(0, 0%, 0%, 0.6);
     border-radius: 50%;
     transition: .2s;
 }
@@ -132,7 +146,7 @@ header {
     box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.8);
 }
 .arrow-btn:hover {
-    background-color: rgb(51, 79, 216);
+    background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.8);
 }
 /* 左 */
@@ -183,18 +197,20 @@ header {
     height: 20px;
     border: 1px solid #333;
     border-radius: 50%;
-    background-color: rgba(83, 97, 223, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 /* jsでtargetクラスがついたら背景色を変える */
 .pagination-circle.target {
-    background-color: rgba(83, 97, 223, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 /* ここまでカルーセル・ボタン部分 */
 
 
 .menu-box {
     margin: auto;
-    margin-top: 200px;
+    margin-top: 75px;
+    padding-top: 150px;
+    border-top: #333 dotted;
     width: 800px;
 }
 
@@ -203,7 +219,7 @@ header {
     text-align: center;
 }
 .tab2 {
-    margin-top: 8px;
+    margin-top: 8px
 }
 .hidden {
     width: 1px;
@@ -218,6 +234,112 @@ header {
 }
 
 .pagelink {
+    margin: 60px;
     line-height: 24px;
     text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+.p1{
+    margin: 30px 25%;
+    line-height: 1.25rem;
+}
+
+h3 {
+    padding: 10px;
+    border-left: solid 0.6rem rgb(106, 205, 255);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.p2 {
+    display: flex;
+}
+.img {
+    width: auto;
+    height: 240px;
+    padding: 20px;
+}
+.sidetext {
+    padding: 20px;
+    align-items: center;
+    height: 240px;
+    display: flex;
+    text-indent: 1rem;
+    line-height: 1.2rem;
+}
+.text-indent {
+    text-indent: 1rem;
+    padding-bottom: 1rem;
+}
+.bokashi:before {
+    content: '';
+    background: inherit;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+.profilebox {
+    display: flex;
+    margin: 30px 10%;
+}
+h4 {
+    text-align: center;
+    margin: 10px 20px 20px;
+    position: relative;
+    padding: 0.8rem .5rem;
+}
+.underline::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    content: '';
+    border-radius: 3px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2af598), to(#009efd));
+    background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+}
+.profiletext {
+    padding: 20px;
+    align-items: center;
+    height: 240px;
+    text-indent: 1rem;
+}
+
+.img2 {
+    width: 270px;
+    height: 180px;
+    padding: 20px;
+}
+
+.sidetext2 {
+    padding: 20px;
+    align-items: center;
+    height: 180px;
+    text-indent: 1rem;
+}
+.tab4 {
+    margin: 8px 16px none;
+    flex: auto;
+}
+
+.sidetext3 {
+    padding: 20px;
+    align-items: center;
+    height: 320px;
+    text-indent: 1rem;
 }

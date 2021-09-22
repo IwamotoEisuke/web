@@ -83,12 +83,19 @@ $(function () {
     });
 });
 $(function () {
-    $('.tab2').on('click', function () { 
-        var index = $('.tab2').index(this); 
-        $('.tab').removeClass('current'); 
-        $(this).addClass('current'); 
+    $('.tab2').on('click', function () {
+        var index = $('.tab2').index(this);
+        $('.tab').removeClass('current');
+        $(this).addClass('current');
         $('.menu-box').hide().eq(index).fadeIn();
     });
 });
 
-
+$(function () {
+    $('.tab4').on('click', function () {
+        var index = $('.tab4').index(this);
+        $('.tab').removeClass('current');
+        $(this).addClass('current');
+        $('.menu-box').hide().eq(index).fadeIn();
+    });
+});
