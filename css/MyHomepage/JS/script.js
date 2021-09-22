@@ -99,3 +99,34 @@ $(function () {
         $('.menu-box').hide().eq(index).fadeIn();
     });
 });
+$(function () {
+    $('.tab5').on('click', function () {
+        var index = $('.tab5').index(this);
+        $('.tab').removeClass('current');
+        $(this).addClass('current');
+        $('.menu-box').hide().eq(index).fadeIn();
+    });
+});
+$(function () {
+    $('.tab6').on('click', function () {
+        var index = $('.tab6').index(this);
+        $('.tab').removeClass('current');
+        $(this).addClass('current');
+        $('.menu-box').hide().eq(index).fadeIn();
+    });
+});
+$(function () {
+    $('.tab7').on('click', function () {
+        var index = $('.tab7').index(this);
+        $('.tab').removeClass('current');
+        $(this).addClass('current');
+        $('.menu-box').hide().eq(index).fadeIn();
+    });
+});
+
+$(function () {
+    $('.tab3').on('click', function () {
+        $('.menu-box').hide()
+        $('.menu-box').eq(0).fadeIn();
+    });
+});
