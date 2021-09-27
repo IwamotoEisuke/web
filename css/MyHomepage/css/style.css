@@ -32,9 +32,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .demo-title {
-    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
     margin-bottom: 1em;
-    padding: 1em 0;
+    padding: 0.5em 0;
     text-align: center;
     color: #fefefe;
     background-color: black;
@@ -213,7 +214,9 @@ header {
     border-top: #333 dotted;
     width: 800px;
 }
-
+.p2 {
+    display: flex;
+}
 .footer {
     margin-top: 100px;
     text-align: center;
@@ -250,25 +253,40 @@ h2 {
     line-height: 1.25rem;
 }
 
+.p3 {
+    width: 95%;
+    line-height: 1.25rem;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+    margin-right: 20px;
+    }
+
 h3 {
     padding: 10px;
     border-left: solid 0.6rem rgb(106, 205, 255);
     margin-top: 40px;
     margin-bottom: 20px;
 }
-.p2 {
-    display: flex;
+.flex-box {
+    flex: auto;
 }
 .img {
     width: auto;
     height: 240px;
-    padding: 20px;
+    margin: auto;
+    padding: 10px;
 }
 .sidetext {
     padding: 20px;
-    align-items: center;
     height: 240px;
-    display: flex;
+    width: 440px;
     text-indent: 1rem;
     line-height: 1.2rem;
 }
@@ -279,12 +297,13 @@ h3 {
 
 .profilebox {
     display: flex;
-    margin: 30px 10%;
+    margin: 80px 15%;
+    line-height: 1.25rem;
 }
 
 h4 {
     text-align: center;
-    margin: 10px 20px 20px;
+    margin: none 20px 10px;
     position: relative;
     padding: 0.8rem .5rem;
 }
@@ -302,7 +321,7 @@ h4 {
     background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
 }
 .profiletext {
-    padding: 20px;
+    padding: none 20px 20px;
     align-items: center;
     height: 240px;
     text-indent: 1rem;
@@ -331,10 +350,50 @@ h4 {
     height: 320px;
     text-indent: 1rem;
 }
+.sidetext4 {
+    width: 440px;
+    height: 540px;
+    margin: 1rem;
+}
 
 .imgframe {
     width: 312px;
-    height: 600px;
+    height: 540px;
     overflow: scroll;
     background-color: rgb(23, 20, 20);
 }
+
+.imgbox {
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+    text-align: center;
+}
+.application {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+h5 {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-box {
+        width: 100%;
+    }
+    .p2,.profilebox {
+        display: block;
+        width: auto;
+    }
+    .img,.img2 {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+}
+    .circle {
+        margin: auto;
+    }
