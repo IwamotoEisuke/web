@@ -438,4 +438,12 @@ h5 {
         height: 300px;
         overflow: hidden;
     }
+    .ds {
+        height: 100%;
+        width: auto;
+    }
+    .sidetext, .sidetext2, .sidetext3, .sidetext4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
