@@ -22,360 +22,407 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <header>
-        <h1 class="demo-title" id="top">IWAMOTO EISUKE</h1>
-        <div class="carousel">
-            <ul class="carousel-area">
-                <li class="carousel-list tab current">
-                    <p class="carousel-title">Top</p>
-                    <img class="carousel-img" src="./img/flower3.jpg" alt="1">
-                </li>
-                <li class="carousel-list tab">
-                    <p class="carousel-title">Profile</p>
-                    <img class="carousel-img" src="./img/kompelive1.jpg" alt="2">
-                </li>
-                <li class="carousel-list tab">
-                    <p class="carousel-title">Music</p>
-                    <img class="carousel-img" src="./img/livepic.jpg" alt="3">
-                </li>
-                <li class="carousel-list tab">
-                    <p class="carousel-title">Games</p>
-                    <img class="carousel-img" src="./img/dqpic.jpg" alt="4">
-                </li>
-                <li class="carousel-list tab">
-                    <p class="carousel-title">Illustration</p>
-                    <img class="carousel-img" src="./img/illustpen.jpg" alt="5">
-                </li>
-            </ul>
-            <div class="arow-wrap">
-                <div class="arrow-left">
-                    <button class="arrow-btn js-btn-back" type="button"></button>
+<body class="background">
+    <div class="whitebox">
+        <header>
+            <h1 class="demo-title" id="top">IWAMOTO EISUKE</h1>
+            <div class="carousel">
+                <ul class="carousel-area">
+                    <li class="carousel-list tab current">
+                        <p class="carousel-title">Top</p>
+                        <img class="carousel-img" src="./img/flower3.jpg" alt="1">
+                    </li>
+                    <li class="carousel-list tab">
+                        <p class="carousel-title">Profile</p>
+                        <img class="carousel-img" src="./img/kompelive1.jpg" alt="2">
+                    </li>
+                    <li class="carousel-list tab">
+                        <p class="carousel-title">Music</p>
+                        <img class="carousel-img" src="./img/musicpic.jpg" alt="3">
+                    </li>
+                    <li class="carousel-list tab">
+                        <p class="carousel-title">Games</p>
+                        <img class="carousel-img" src="./img/dqpic.jpg" alt="4">
+                    </li>
+                    <li class="carousel-list tab">
+                        <p class="carousel-title">Illustration</p>
+                        <img class="carousel-img" src="./img/illustpen.jpg" alt="5">
+                    </li>
+                </ul>
+                <div class="arow-wrap">
+                    <div class="arrow-left">
+                        <button class="arrow-btn js-btn-back" type="button"></button>
+                    </div>
+                    <div class="arrow-right">
+                        <button class="arrow-btn js-btn-next" type="button"></button>
+                    </div>
                 </div>
-                <div class="arrow-right">
-                    <button class="arrow-btn js-btn-next" type="button"></button>
+                <div class="pagination">
+                    <span class="pagination-circle target"></span>
+                    <span class="pagination-circle"></span>
+                    <span class="pagination-circle"></span>
+                    <span class="pagination-circle"></span>
+                    <span class="pagination-circle"></span>
                 </div>
             </div>
-            <div class="pagination">
-                <span class="pagination-circle target"></span>
-                <span class="pagination-circle"></span>
-                <span class="pagination-circle"></span>
-                <span class="pagination-circle"></span>
-                <span class="pagination-circle"></span>
+        </header>
+        <main>
+            <!-- ゲートページ -->
+            <div class="main-frame">
+                <section class="menu-box tab1" id="gatepage">
+                    <h2>Top</h2>
+                    <div class="p1">
+                        <p class="text-indent">
+                            はじめまして、岩本英輔の自己紹介ページにアクセスいただきありがとうございます。ここでは自分の略歴と趣味について少しお話させてください。以下の目次をクリックして詳細のページをご覧ください。
+                        </p>
+                        <ul>
+                            <li class="tab2 hidden"><a href="#gatepage"></a></li>
+                            <li class="tab2"><a href="#profile">Profile</a></li>
+                            <li class="tab2"><a href="#music">Music</a></li>
+                            <li class="tab2"><a href="#games">Games</a></li>
+                            <li class="tab2"><a href="#illustration">Illustration</a></li>
+                        </ul>
+                    </div>
+                    <div class="pagelink">
+                        <p><a href="#gatepage">このページのトップに戻る</a></p>
+                        <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                    </div>
+                </section>
+                <!-- profile -->
+                <section class="menu-box" id="profile">
+                    <h2>Profile</h2>
+                    <div class="profilebox">
+                        <div>
+                            <img class="circle" src="./img/kompelive2.jpg" alt="">
+                        </div>
+                        <div class="flex-box profiletext">
+                            <h4 class="underline">岩本英輔 (いわもとえいすけ)</h4>
+                            <p>1997年11月20日生まれ。今年7月に大学を辞めて訓練校で勉強中。多趣味でサブカルチャーが大好き。食べ物はラーメンが好き、ラーメン屋でバイトしていたこともある。ひとり暮らしをしていた際自炊をしていたのである程度料理ができる。得意料理は豚の角煮。
+                            </p>
+                        </div>
+                    </div>
+                    <h3>略歴</h3>
+                    <div class="p2">
+                        <div class="flex-box sidetext2">
+                            <h4>2004.4 ~2010.3 月寒小学校</h4>
+                            <p>小学校3年の時、ファイターズ解説の岩本勉のあだ名からとって「がんちゃん」と担任に呼ばれ、それが広く使われるようになる。
+                            </p>
+                        </div>
+                        <div class="imgbox2">
+                            <img class="img2 flex-box" src="./img/tsukisyou.jpg" alt="月寒小学校">
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="imgbox2">
+                            <img class="img2 flex-box" src="./img/tsukityuu.JPG" alt="月寒中学校">
+                        </div>
+                        <div class="flex-box sidetext2">
+                            <h4>2010.4~2013.3 月寒中学校</h4>
+                            <p>勉強熱心で、成績はずっと上位だったが、異様に運動神経が悪く、保健体育の内申点のみ3か4をウロウロし、一度も「オール5」の栄光には輝けず。</p>
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="flex-box sidetext2">
+                            <h4>2013.4~2016.3 札幌西高校</h4>
+                            <p>勉強をさぼり始め、追試地獄生活になる。モテたくてギターを始める。ハロウィンに女装する。一時期モンストにはまりすぎて不登校になる。3年間理系クラスだったのに、突然京大経済 (文系)
+                                を受験する。</p>
+                        </div>
+                        <div class="imgbox2">
+                            <img class="img2 flex-box" src="./img/satsunishi.jpg" alt="札幌西高校">
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="imgbox2">
+                            <img class="img2 flex-box" src="./img/kyoudai.jpg" alt="京都大学">
+                        </div>
+                        <div class="flex-box sidetext2">
+                            <h4>2016.4~2021.7 京都大学経済学部</h4>
+                            <p>奇跡の現役合格を果たすも、大学の勉強についていけず留年し退学。サークル活動とアルバイトに励む5年間。</p>
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="flex-box sidetext2">
+                            <h4>2021.8~ 北関東学院</h4>
+                            <a href="http://www.kitakanto-gakuin.net/">北関東学院: パソコン系の仕事を目指す求職者支援訓練(職業訓練)</a>
+                        </div>
+                        <div class="imgbox2">
+                            <img class="img2 flex-box" src="./img/kitakanntougakuinn.jpg" alt="北関東学院">
+                        </div>
+                    </div>
+                    <h3>趣味</h3>
+                    <div class="p2">
+                        <div class="sidetext3 flex-box">
+                            <p class="text-indent">自分は何でも手を出してしまう性格なので、かなり多趣味な人間だと思います。</p>
+                            <p class="text-indent">
+                                ゲームや音楽をはじめとして、料理にはまったり、競技麻雀を観戦するほど麻雀にはまったり、ipad買ったからやってみるかーって感じでイラストを描いてみたり...。</p>
+                            <p class="text-indent">
+                                とにかく何でも手を出しては飽きての繰り返しの人生を送っております。最近は実家暮らしで体が肥えてきたので、ダイエットのために筋トレやヨガにはまったりしています。</p>
+                            <p class="text-indent"> 今回は音楽・ゲーム・イラストの三つについて少し詳しく書きましたので興味のある方は覗いてみてください！
+                            </p>
+                        </div>
+                        <img class="img flex-box" src="./img/majang.jpg" alt="麻雀">
+                    </div>
+                    <div class="p1">
+                        <ul class="p2">
+                            <li class="tab4 hidden"><a href="#gatepage"></a></li>
+                            <li class="tab4 hidden"><a href="#profile">Profile</a></li>
+                            <li class="tab4"><a href="#music">Music</a></li>
+                            <li class="tab4"><a href="#games">Games</a></li>
+                            <li class="tab4"><a href="#illustration">Illustration</a></li>
+                        </ul>
+                    </div>
+                    <h3>各種リンク</h3>
+                    <div class="p2">
+                        <div class="flex-box sidetext2">
+                            <img src="./img/twitter.jpg" alt="twitter" class="application">
+                            <p class="block"><a href="https://twitter.com/sugoi__yabai">Twitter</a><br>@sugoi__yabai</p>
+                        </div>
+                        <div class="flex-box sidetext2">
+                            <img src="./img/instagram.jpg" alt="instagram" class="application">
+                            <p class="block"><a href="https://instagram.com/ramenforever__">Instagram</a>
+                                <br>@ramenforever__
+                            </p>
+                        </div>
+                        <div class="flex-box sidetext2">
+                            <img src="./img/amazon.jpg" alt="amazon" class="application">
+                            <p class="block"><a
+                                    href="https://www.amazon.jp/hz/wishlist/ls/R3VHDX77AUHI?ref_=wl_share">Amazon欲しいものリスト</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pagelink">
+                        <p><a href="#music">このページのトップに戻る</a></p>
+                        <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                    </div>
+                </section>
+                <!-- music -->
+                <section class="menu-box" id="music">
+                    <h2>Music</h2>
+                    <div class="p1">
+                        <p class="text-indent">
+                            自身を語るうえで最も欠かせない要素が音楽です。日常生活と切り離せないといっていいほど毎日音楽を聴いており、そして学生時代に最も打ち込んだものが音楽だからです。このページでは、音楽を奏でること、音楽を聴くことの二つに分けて自身を語りたいと思います。
+                        </p>
+                    </div>
+                    <h3>音楽を演奏する</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/picDL/mylivepic1.JPG" alt="自分のギター">
+                        </div>
+                        <div class="flex-box sidetext">
+                            <h4>文化祭でバンドに憧れる高校1年</h4>
+                            <p>
+                                高校1年の文化祭、当時そんなに音楽に興味がなかった自分は同級生に連れられて軽音部3年のステージを見に行った。彼らが演奏していた曲は当時は全然知らない曲だったがそのカッコよさに魅了されて文化祭後すぐに軽音部に入部した。何も知識がないままギターを買って、全然弾けないけどスタジオで合わせたり、ライブに出たり。当時のパートはリードギターでflumpoolやBUMP
+                                OF CHICKENのコピーをしていた。</p>
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="flex-box sidetext">
+                            <h4>ボーカルに挑戦する大学時代</h4>
+                            <p>大学でも軽音サークルに入り、引き続きバンドでの演奏をする。リードギター以外にもギターボーカルやベースにも挑戦する。特に男性ギタボはサークル内で希少だったためバンドを組む機会もかなり増えたが、歌唱技術に関してかなり未熟だったため、ボイストレーニング教室に一年間通った。the
+                                pillowsをはじめ、いろいろなバンドのコピーバンドを組んだ。
+                            </p>
+                        </div>
+                        <div class="imgbox">
+                            <img class="img" src="./img/picDL/mylivepic2.JPG" alt="バンド演奏">
+                        </div>
+                    </div>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/picDL/mylivepic3.JPG" alt="バンド演奏">
+                        </div>
+                        <div class="sidetext flex-box">
+                            <h4>今までコピーしたバンド</h4>
+                            <p>ASIAN KUNG-FU GENERATION/back number/The Birthday/BUMP OF CHICKEN/a flood of
+                                circle/flumpool/GLIM SPANKY/THE KEBABS/NICO Touches the Walls/the
+                                pillows/PUFFY/RADWIMPS/SEKAI NO
+                                OWARI/エレファントカシマシ/くるり/ストレイテナー/スピッツ/ドレスコーズ/フジファブリック/怒髪天/毛皮のマリーズ/浜田省吾/米津玄師/髭(HiGE)</p>
+                        </div>
+                    </div>
+                    <h3>音楽を聴く</h3>
+                    <div class="p2">
+                        <div class="sidetext4">
+                            <p class="text-indent">皆さんはどんな音楽を聴きますか？</p>
+                            <p class="text-indent">
+                                自分はこの質問の返答にしょっちゅう困ります。音楽めっちゃ聴くし、邦ロックで大好きなアーティストいるし、でもボカロとかアニソンのジャンルも聴くし、そういえば昔こんな音楽にはまってて～...と。自分の好きな音楽についてしゃべり始めようとすると、どうしても長くて退屈なものになってしまいます。
+                            </p>
+                            <p class="text-indent">
+                                なので、まぁ見てもらったほうが早そうなので、とりあえずプレイリストとしてまとめてみました。spotifyを登録されている方はぜひこのプレイリストを追加してみてください。
+                            </p>
+                            <p class="text-indent">
+                                <a
+                                    href="https://open.spotify.com/playlist/2nM2JkeOuyTHSN1IPz1C7T?si=j_BWehGuS2C33GsiDAoiww&dl_branch=1">
+                                    https://open.spotify.com/playlist/2nM2JkeOuyTHSN1IPz1C7T?si=j_BWehGuS2C33GsiDAoiww&dl_branch=1</a>
+                            </p>
+                            <p class="text-indent">
+                                邦ロックとか詳しい人なら割と知っているアーティストいてみてて楽しいんじゃないかなぁと思います。よくわからない人は、「ああ、いろんなアーティスト聴くんですねぇ。」程度で認識しておいてください。(笑)
+                            </p>
+                            <p class="text-indent">
+                                このプレイリストに入っている50曲について1曲ずつ良さを早口で語りたい気持ちがありますが、さすがに日が暮れるので止めておきます。</p>
+                            <p class="text-indent">しいて言うなら、この中でも<strong>BUMP OF CHICKEN</strong>, <strong>the
+                                    pillows</strong>,
+                                <strong>ストレイテナー</strong>の３バンドは毎ツアーライブに行くくらい好きです。
+                            </p>
+                        </div>
+                        <div class="imgframe">
+                            <img width="300px" src="./img/picDL/spotifyss1.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss2.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss3.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss4.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss5.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss6.jpg" alt="spotify">
+                            <img width="300px" src="./img/picDL/spotifyss7.jpg" alt="spotify">
+                        </div>
+                    </div>
+                    <div class="p1">
+                        <ul class="p2">
+                            <li class="tab5 hidden"><a href="#gatepage"></a></li>
+                            <li class="tab5 "><a href="#profile">Profile</a></li>
+                            <li class="tab5 hidden"><a href="#music">Music</a></li>
+                            <li class="tab5"><a href="#games">Games</a></li>
+                            <li class="tab5"><a href="#illustration">Illustration</a></li>
+                        </ul>
+                    </div>
+                    <div class="pagelink">
+                        <p><a href="#music">このページのトップに戻る</a></p>
+                        <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                    </div>
+                </section>
+                <!-- games -->
+                <section class="menu-box" id="games">
+                    <h2>Games</h2>
+                    <div class="p1">
+                        <p class="text-indent">
+                            現在の自分の生活で最も楽しい時間といえば、やはりゲームをしている時間だと思います。幼いころからジグソーパズルやレゴブロックといった知育玩具が好きで、中学生の時にPSPでモンハンを友達と遊んだ時から家庭用ゲームをたくさん遊ぶようになりました。ここでは、自分の好きなゲームタイトルをハードごとにいくつか紹介しようと思うので興味のある人は覗いていってください。
+                        </p>
+                    </div>
+                    <h3>DS, 3DS</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/3ds.jpg" alt="3ds">
+                        </div>
+                        <div class="sidetext">
+                            <p class="text-indent">
+                                小学生のころからお世話になっている携帯ゲーム機。ドラクエシリーズを多分一番プレイしました。ドラクエ好きすぎて、最近でもスマホ版のリメイクを買ってプレイしたります。</p>
+                            <p>主なタイトル：ドラゴンクエストシリーズ, 星のカービィシリーズ, マリオカートDS, おいでよどうぶつの森, いただきストリートDS, Monster Hunter 3G/XX
+                            </p>
+                        </div>
+                    </div>
+                    <div class="gameimage">
+                    </div>
+                    <h3>Nintendo Switch</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/nintendoswitch.jpg" alt="NintendoSwitch">
+                        </div>
+                        <div class="sidetext">
+                            <p class="text-indent">
+                                現在もオンラインで友達とよく遊ぶソフトが詰まっている任天堂の定番ハード。現時点で最新ナンバリングのポケモン剣盾で人生初ポケモンをプレイしました。最近は毎日リングフィットアドベンチャーでいい汗かいてます。
+                            </p>
+                            <p>主なタイトル：ポケットモンスター剣盾, 大乱闘スマッシュブラザーズ, Splatoon2, パワプロ2020, リングフィットアドベンチャー</p>
+                        </div>
+                    </div>
+                    <div class="gameimage">
+                    </div>
+                    <h3>PSP</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/psp.jpg" alt="psp">
+                        </div>
+                        <div class="sidetext">
+                            <p class="text-indent">
+                                史上最高の携帯ゲーム機、だと勝手に思っているのがこのPSP。中学生のころゲームは一日一時間といわれてたけど夜中にこっそり無音でモンハンやってたなぁ。モンハンシリーズは累計2500時間くらいやってます。おそろしい。
+                            </p>
+                            <p>主なタイトル：Monster Hunter Portable 2ndG/3rd, GOD EATERシリーズ, 勇者のくせになまいきだ</p>
+                        </div>
+                    </div>
+                    <div class="gameimage">
+                    </div>
+                    <h3>PS4</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img" src="./img/ps4.jpg" alt="ps4">
+                        </div>
+                        <div class="sidetext">
+                            <p class="text-indent">大学生活はこいつに蝕まれました。FPS(銃撃つゲーム)をメインでやってます。blue-rayディスク見れたり、Amazon
+                                Primeやyoutube見れたり何気に便利。</p>
+                            <p>主なタイトル：Apex Legends, Monster Hunter World, Call Of Dutyシリーズ, Fortnite, ドラゴンクエストビルダーズ2</p>
+                        </div>
+                    </div>
+                    <div class="gameimage">
+                    </div>
+                    <h3>PC</h3>
+                    <div class="p2">
+                        <div class="imgbox">
+                            <img class="img flex-box" src="./img/gamingpc.jpg" alt="gamingpc">
+                        </div>
+                        <div class="sidetext">
+                            <p class="text-indent">※画像はイメージです。僕はこんな立派なPC持ってません。</p>
+                            <p class="text-indent">
+                                主にマイクラやってます。最近は友人と15人くらいの規模で専用のサーバー建てました。就職して金貯めて最初に買いたいのは、つよいPC、まちがいない。
+                            </p>
+                            <p>主なタイトル：Minecraft, Valorant</p>
+                        </div>
+                    </div>
+                    <div class="gameimage">
+                    </div>
+                    <div class="p1">
+                        <ul class="p2">
+                            <li class="tab6 hidden"><a href="#gatepage"></a></li>
+                            <li class="tab6 "><a href="#profile">Profile</a></li>
+                            <li class="tab6"><a href="#music">Music</a></li>
+                            <li class="tab6 hidden"><a href="#games">Games</a></li>
+                            <li class="tab6"><a href="#illustration">Illustration</a></li>
+                        </ul>
+                    </div>
+                    <div class="pagelink">
+                        <p><a href="#games">このページのトップに戻る</a></p>
+                        <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                    </div>
+                </section>
+                <!-- illustration -->
+                <section class="menu-box" id="illustration">
+                    <h2>Illustration</h2>
+                    <div class="p1">
+                        <p>今年の春にipadを買って、なんか使ってあげたいな...とぼんやり始めた最近の趣味がデジタルのお絵描きです。専門的な知識が全くない状態で始めたものでかつ独学ということで、出来上がった絵は作品というよりは汚い落書きですが、ここに一部を残しておきます。
+                        </p>
+                    </div>
+                    <img class="procreate" src="./img/manjirousano.jpg" alt="マイキーくん">
+                    <p class="text-indent">
+                        『東京卍リベンジャーズ』より、マイキーくんを描きました。最近アマプラで見始めて好きになったんですよね。ヤンキーがかっこかわいくてキャラを愛せる作品だなと思いました。まだ12話までしか見てませんが。
+                    </p>
+                    <div class="p2">
+                        <div class="sidetext2">
+                            <h5>使用ソフト(アプリ)：Procreate</h5>
+                            <p class="text-indent">使いやすい。のかどうか正直わからんだってこれしか使ったことない。ブラシがめっちゃ種類多いらしい。使わんからわからんけど。</p>
+                            <p class="text-indent">
+                                価格：1220円 ( <a href="https://apps.apple.com/jp/app/procreate/id425073498"> Apple Store
+                                </a> )
+                            </p>
+                        </div>
+                        <div>
+                            <img class="application" src="./img/procreate.jpg" alt="procreate">
+                        </div>
+                    </div>
+                    <div class="p1">
+                        <ul class="p2">
+                            <li class="tab7 hidden"><a href="#gatepage"></a></li>
+                            <li class="tab7 "><a href="#profile">Profile</a></li>
+                            <li class="tab7"><a href="#music">Music</a></li>
+                            <li class="tab7"><a href="#games">Games</a></li>
+                            <li class="tab7 hidden"><a href="#illustration">Illustration</a></li>
+                        </ul>
+                    </div>
+                    <div class="pagelink">
+                        <p><a href="#illustration">このページのトップに戻る</a></p>
+                        <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
+                    </div>
+                </section>
             </div>
-        </div>
-    </header>
-    <main>
-        <!-- ゲートページ -->
-        <div class="main-frame">
-            <section class="menu-box tab1" id="gatepage">
-                <h2>Top</h2>
-                <div class="p1">
-                    <p class="text-indent">
-                        はじめまして、岩本英輔の自己紹介ページにアクセスいただきありがとうございます。ここでは自分の略歴と趣味について少しお話させてください。以下の目次をクリックして詳細のページをご覧ください。
-                    </p>
-                    <ul>
-                        <li class="tab2 hidden"><a href="#gatepage"></a></li>
-                        <li class="tab2"><a href="#profile">Profile</a></li>
-                        <li class="tab2"><a href="#music">Music</a></li>
-                        <li class="tab2"><a href="#games">Games</a></li>
-                        <li class="tab2"><a href="#illustration">Illustration</a></li>
-                    </ul>
-                </div>
-                <div class="pagelink">
-                    <p><a href="#gatepage">このページのトップに戻る</a></p>
-                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
-                </div>
-            </section>
-            <!-- profile -->
-            <section class="menu-box" id="profile">
-                <h2>Profile</h2>
-                <div class="profilebox">
-                    <div>
-                        <img class="circle" src="./img/kompelive2.jpg" alt="">
-                    </div>
-                    <div class="flex-box profiletext">
-                        <h4 class="underline">岩本英輔 (いわもとえいすけ)</h4>
-                        <p>1997年11月20日生まれ。今年7月に大学を辞めて訓練校で勉強中。多趣味でサブカルチャーが大好き。食べ物はラーメンが好き、ラーメン屋でバイトしていたこともある。ひとり暮らしをしていた際自炊をしていたのである程度料理ができる。得意料理は豚の角煮。
-                        </p>
-                    </div>
-                </div>
-                <h3>略歴</h3>
-                <div class="p2">
-                    <div class="flex-box sidetext2">
-                        <h4>2004.4 ~2010.3 月寒小学校</h4>
-                        <p>小学校3年の時、ファイターズ解説の岩本勉のあだ名からとって「がんちゃん」と担任に呼ばれ、それが広く使われるようになる。
-                        </p>
-                    </div>
-                    <img class="img2 flex-box" src="./img/tsukisyou.jpg" alt="月寒小学校">
-                </div>
-                <div class="p2">
-                    <img class="img2 flex-box" src="./img/tsukityuu.JPG" alt="月寒中学校">
-                    <div class="flex-box sidetext2">
-                        <h4>2010.4~2013.3 月寒中学校</h4>
-                        <p>勉強熱心で、成績はずっと上位だったが、異様に運動神経が悪く、保健体育の内申点のみ3か4をウロウロし、一度も「オール5」の栄光には輝けず。</p>
-                    </div>
-                </div>
-                <div class="p2">
-                    <div class="flex-box sidetext2">
-                        <h4>2013.4~2016.3 札幌西高校</h4>
-                        <p>勉強をさぼり始め、追試地獄生活になる。モテたくてギターを始める。ハロウィンに女装する。一時期モンストにはまりすぎて不登校になる。3年間理系クラスだったのに、突然京大経済 (文系)
-                            を受験する。</p>
-                    </div>
-                    <img class="img2 flex-box" src="./img/satsunishi.jpg" alt="札幌西高校">
-                </div>
-                <div class="p2">
-                    <img class="img2 flex-box" src="./img/kyoudai.jpg" alt="京都大学">
-                    <div class="flex-box sidetext2">
-                        <h4>2016.4~2021.7 京都大学経済学部</h4>
-                        <p>奇跡の現役合格を果たすも、大学の勉強についていけず留年し退学。サークル活動とアルバイトに励む5年間。</p>
-                    </div>
-                </div>
-                <div class="p2">
-                    <div class="flex-box sidetext2">
-                        <h4>2021.8~ 北関東学院</h4>
-                        <a href="http://www.kitakanto-gakuin.net/">北関東学院: パソコン系の仕事を目指す求職者支援訓練(職業訓練)</a>
-                    </div>
-                    <img class="img2 flex-box" src="./img/kitakanntougakuinn.jpg" alt="北関東学院">
-                </div>
-                <h3>趣味</h3>
-                <div class="p2">
-                    <div class="sidetext3 flex-box">
-                        <p class="text-indent">自分は何でも手を出してしまう性格なので、かなり多趣味な人間だと思います。</p>
-                        <p class="text-indent">
-                            ゲームや音楽をはじめとして、料理にはまったり、競技麻雀を観戦するほど麻雀にはまったり、ipad買ったからやってみるかーって感じでイラストを描いてみたり...。</p>
-                        <p class="text-indent">
-                            とにかく何でも手を出しては飽きての繰り返しの人生を送っております。最近は実家暮らしで体が肥えてきたので、ダイエットのために筋トレやヨガにはまったりしています。</p>
-                        <p class="text-indent"> 今回は音楽・ゲーム・イラストの三つについて少し詳しく書きましたので興味のある方は覗いてみてください！
-                        </p>
-                    </div>
-                    <img class="img flex-box" src="./img/majang.jpg" alt="麻雀">
-                </div>
-                <div class="p1">
-                    <ul class="p2">
-                        <li class="tab4 hidden"><a href="#gatepage"></a></li>
-                        <li class="tab4 hidden"><a href="#profile">Profile</a></li>
-                        <li class="tab4"><a href="#music">Music</a></li>
-                        <li class="tab4"><a href="#games">Games</a></li>
-                        <li class="tab4"><a href="#illustration">Illustration</a></li>
-                    </ul>
-                </div>
-                <div class="pagelink">
-                    <p><a href="#profile">このページのトップに戻る</a></p>
-                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
-                </div>
-            </section>
-            <!-- music -->
-            <section class="menu-box" id="music">
-                <h2>Music</h2>
-                <div class="p1">
-                    <p class="text-indent">
-                        自身を語るうえで最も欠かせない要素が音楽です。日常生活と切り離せないといっていいほど毎日音楽を聴いており、そして学生時代に最も打ち込んだものが音楽だからです。このページでは、音楽を奏でること、音楽を聴くことの二つに分けて自身を語りたいと思います。
-                    </p>
-                </div>
-                <h3>音楽を演奏する</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/picDL/mylivepic1.JPG" alt="自分のギター">
-                    </div>
-                    <div class="flex-box sidetext">
-                        <h4>文化祭でバンドに憧れる高校1年</h4>
-                        <p>
-                            高校1年の文化祭、当時そんなに音楽に興味がなかった自分は同級生に連れられて軽音部3年のステージを見に行った。彼らが演奏していた曲は当時は全然知らない曲だったがそのカッコよさに魅了されて文化祭後すぐに軽音部に入部した。何も知識がないままギターを買って、全然弾けないけどスタジオで合わせたり、ライブに出たり。当時のパートはリードギターでflumpoolやBUMP
-                            OF CHICKENのコピーをしていた。</p>
-                    </div>
-                </div>
-                <div class="p2">
-                    <div class="flex-box sidetext">
-                        <h4>ボーカルに挑戦する大学時代</h4>
-                        <p>大学でも軽音サークルに入り、引き続きバンドでの演奏をする。リードギター以外にもギターボーカルやベースにも挑戦する。特に男性ギタボはサークル内で希少だったためバンドを組む機会もかなり増えたが、歌唱技術に関してかなり未熟だったため、ボイストレーニング教室に一年間通った。the
-                            pillowsをはじめ、いろいろなバンドのコピーバンドを組んだ。
-                        </p>
-                    </div>
-                    <div class="imgbox">
-                        <img class="img" src="./img/picDL/mylivepic2.JPG" alt="バンド演奏">
-                    </div>
-                </div>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/picDL/mylivepic3.JPG" alt="バンド演奏">
-                    </div>
-                    <div class="sidetext flex-box">
-                        <h4>今までコピーしたバンド</h4>
-                        <p></p>
-                    </div>
-                </div>
-                <h3>音楽を聴く</h3>
-                <div class="p2">
-                    <div class="sidetext4">
-                        <p class="text-indent">皆さんはどんな音楽を聴きますか？</p>
-                        <p class="text-indent">
-                            自分はこの質問の返答にしょっちゅう困ります。音楽めっちゃ聴くし、邦ロックで大好きなアーティストいるし、でもボカロとかアニソンのジャンルも聴くし、そういえば昔こんな音楽にはまってて～...と。自分の好きな音楽についてしゃべり始めようとすると、どうしても長くて退屈なものになってしまいます。
-                        </p>
-                        <p class="text-indent">
-                            なので、まぁ見てもらったほうが早そうなので、とりあえずプレイリストとしてまとめてみました。spotifyを登録されている方はぜひこのプレイリストを追加してみてください。
-                        </p>
-                        <p class="text-indent">
-                            邦ロックとか詳しい人なら割と知っているアーティストいてみてて楽しいんじゃないかなぁと思います。よくわからない人は、「ああ、いろんなアーティスト聴くんですねぇ。」程度で認識しておいてください。(笑)
-                        </p>
-                        <p class="text-indent">
-                            このプレイリストに入っている50曲について1曲ずつ良さを早口で語りたい気持ちがありますが、さすがに日が暮れるので、好きなアーティスト3組だけ紹介させてください。</p>
-                    </div>
-                    <div class="imgframe">
-                        <img width="300px" src="./img/picDL/spotifyss1.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss2.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss3.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss4.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss5.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss6.jpg" alt="spotify">
-                        <img width="300px" src="./img/picDL/spotifyss7.jpg" alt="spotify">
-                    </div>
-                </div>
-                <h5>1. BUMP OF CHICKEN</h5>
-                <h5>2. the pillows</h5>
-                <h5>3. ストレイテナー</h5>
-                <div class="p1">
-                    <ul class="p2">
-                        <li class="tab5 hidden"><a href="#gatepage"></a></li>
-                        <li class="tab5 "><a href="#profile">Profile</a></li>
-                        <li class="tab5 hidden"><a href="#music">Music</a></li>
-                        <li class="tab5"><a href="#games">Games</a></li>
-                        <li class="tab5"><a href="#illustration">Illustration</a></li>
-                    </ul>
-                </div>
-                <div class="pagelink">
-                    <p><a href="#music">このページのトップに戻る</a></p>
-                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
-                </div>
-            </section>
-            <!-- games -->
-            <section class="menu-box" id="games">
-                <h2>Games</h2>
-                <div class="p1">
-                    <p class="text-indent">
-                        現在の自分の生活で最も楽しい時間といえば、やはりゲームをしている時間だと思います。幼いころからジグソーパズルやレゴブロックといった知育玩具が好きで、中学生の時にPSPでモンハンを友達と遊んだ時から家庭用ゲームをたくさん遊ぶようになりました。ここでは、自分の好きなゲームタイトルをハードごとにいくつか紹介しようと思うので興味のある人は覗いていってください。
-                    </p>
-                </div>
-                <h3>DS, 3DS</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/3ds.jpg" alt="3ds">
-                    </div>
-                    <div class="sidetext">
-                        <p class="text-indent">
-                            小学生のころからお世話になっている携帯ゲーム機。ドラクエシリーズを多分一番プレイしました。ドラクエ好きすぎて、最近でもスマホ版のリメイクを買ってプレイしたります。</p>
-                        <p>主なタイトル：ドラゴンクエストシリーズ, 星のカービィシリーズ, マリオカートDS, おいでよどうぶつの森, いただきストリートDS, Monster Hunter 3G/XX</p>
-                    </div>
-                </div>
-                <div class="gameimage">
-                </div>
-                <h3>Nintendo Switch</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/nintendoswitch.jpg" alt="NintendoSwitch">
-                    </div>
-                    <div class="sidetext">
-                        <p class="text-indent">
-                            現在もオンラインで友達とよく遊ぶソフトが詰まっている任天堂の定番ハード。現時点で最新ナンバリングのポケモン剣盾で人生初ポケモンをプレイしました。最近は毎日リングフィットアドベンチャーでいい汗かいてます。
-                        </p>
-                        <p>主なタイトル：ポケットモンスター剣盾, 大乱闘スマッシュブラザーズ, Splatoon2, パワプロ2020, リングフィットアドベンチャー</p>
-                    </div>
-                </div>
-                <div class="gameimage">
-                </div>
-                <h3>PSP</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/psp.jpg" alt="psp">
-                    </div>
-                    <div class="sidetext">
-                        <p class="text-indent">
-                            史上最高の携帯ゲーム機、だと勝手に思っているのがこのPSP。中学生のころゲームは一日一時間といわれてたけど夜中にこっそり無音でモンハンやってたなぁ。モンハンシリーズは累計2500時間くらいやってます。おそろしい。
-                        </p>
-                        <p>主なタイトル：Monster Hunter Portable 2ndG/3rd, GOD EATERシリーズ, 勇者のくせになまいきだ</p>
-                    </div>
-                </div>
-                <div class="gameimage">
-                </div>
-                <h3>PS4</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img" src="./img/ps4.jpg" alt="ps4">
-                    </div>
-                    <div class="sidetext">
-                        <p class="text-indent">大学生活はこいつに蝕まれました。FPS(銃撃つゲーム)をメインでやってます。blue-rayディスク見れたり、Amazon
-                            Primeやyoutube見れたり何気に便利。</p>
-                        <p>主なタイトル：Apex Legends, Monster Hunter World, Call Of Dutyシリーズ, Fortnite, ドラゴンクエストビルダーズ2</p>
-                    </div>
-                </div>
-                <div class="gameimage">
-                </div>
-                <h3>PC</h3>
-                <div class="p2">
-                    <div class="imgbox">
-                        <img class="img flex-box" src="./img/gamingpc.jpg" alt="gamingpc">
-                    </div>
-                    <div class="sidetext">
-                        <p class="text-indent">※画像はイメージです。僕はこんな立派なPC持ってません。</p>
-                        <p class="text-indent">主にマイクラやってます。最近は友人と15人くらいの規模で専用のサーバー建てました。就職して金貯めて最初に買いたいのは、つよいPC、まちがいない。
-                        </p>
-                        <p>主なタイトル：Minecraft, Valorant</p>
-                    </div>
-                </div>
-                <div class="gameimage">
-                </div>
-                <div class="p1">
-                    <ul class="p2">
-                        <li class="tab6 hidden"><a href="#gatepage"></a></li>
-                        <li class="tab6 "><a href="#profile">Profile</a></li>
-                        <li class="tab6"><a href="#music">Music</a></li>
-                        <li class="tab6 hidden"><a href="#games">Games</a></li>
-                        <li class="tab6"><a href="#illustration">Illustration</a></li>
-                    </ul>
-                </div>
-                <div class="pagelink">
-                    <p><a href="#games">このページのトップに戻る</a></p>
-                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
-                </div>
-            </section>
-            <!-- illustration -->
-            <section class="menu-box" id="illustration">
-                <h2>Illustration</h2>
-                <div class="p1">
-                    <p>今年の春にipadを買って、なんか使ってあげたいな...とぼんやり始めた最近の趣味がデジタルのお絵描きです。専門的な知識が全くない状態で始めたものでかつ独学ということで、出来上がった絵は作品というよりは汚い落書きですが、ここに一部を残しておきます。
-                    </p>
-                </div>
-                <div class="p2">
-                    <div class="sidetext2">
-                        <h5>使用ソフト(アプリ)：Procreate</h5>
-                        <p class="text-indent">使いやすい。のかどうか正直わからんだってこれしか使ったことない。ブラシがめっちゃ種類多いらしい。使わんからわからんけど。</p>
-                        <p class="text-indent">
-                            価格：1220円 ( <a href="https://apps.apple.com/jp/app/procreate/id425073498"> Apple Store </a> )
-                        </p>
-                    </div>
-                    <div>
-                        <img class="application" src="./img/procreate.jpg" alt="procreate">
-                    </div>
-                </div>
-                <div class="p1">
-                    <ul class="p2">
-                        <li class="tab7 hidden"><a href="#gatepage"></a></li>
-                        <li class="tab7 "><a href="#profile">Profile</a></li>
-                        <li class="tab7"><a href="#music">Music</a></li>
-                        <li class="tab7"><a href="#games">Games</a></li>
-                        <li class="tab7 hidden"><a href="#illustration">Illustration</a></li>
-                    </ul>
-                </div>
-                <div class="pagelink">
-                    <p><a href="#illustration">このページのトップに戻る</a></p>
-                    <p class="tab3"><a href="#top">サイトのトップに戻る</a></p>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <p class="footer"> @2021 IwamotoEisuke</p>
-    </footer>
+        </main>
+        <footer>
+            <p class="footer"> @2021 IwamotoEisuke</p>
+        </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./JS/script.js"></script>
