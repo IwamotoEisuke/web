@@ -282,6 +282,7 @@ h2 {
     }
 
 h3 {
+    font-size: 1.2rem;
     padding: 10px;
     border-left: solid 0.6rem rgb(106, 205, 255);
     margin-top: 40px;
@@ -336,7 +337,7 @@ h4 {
     background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
 }
 .profiletext {
-    padding: none 20px 20px;
+    padding: 30px 20px 20px;
     align-items: center;
     height: 240px;
     text-indent: 1rem;
@@ -376,6 +377,7 @@ h4 {
     width: 440px;
     height: 540px;
     margin: 1rem;
+    padding: 20px;
 }
 
 .imgframe {
@@ -383,6 +385,7 @@ h4 {
     height: 540px;
     overflow: scroll;
     background-color: rgb(23, 20, 20);
+    margin: auto;
 }
 
 .imgbox {
@@ -443,6 +446,7 @@ h5 {
         width: auto;
     }
     .sidetext, .sidetext2, .sidetext3, .sidetext4 {
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
