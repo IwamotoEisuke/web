@@ -228,6 +228,7 @@ header {
 .p2 {
     display: flex;
     padding-bottom: 40px;
+    margin: auto;
 }
 .footer {
     margin-top: 100px;
@@ -288,6 +289,8 @@ h3 {
 }
 .flex-box {
     flex: auto;
+    margin: auto;
+    text-align: center;
 }
 .img {
     width: auto;
@@ -393,8 +396,12 @@ h4 {
     height: 100px;
     border-radius: 30px;
     margin: 20px;
+    text-align: center;
 }
-
+.block {
+    text-align: center;
+    line-height: 1.25rem;
+}
 h5 {
     padding-bottom: 1rem;
 }
