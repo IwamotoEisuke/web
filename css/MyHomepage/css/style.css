@@ -72,7 +72,6 @@ header {
     /* テキストの装飾 */
     align-items: center;
     display: flex;
-
 }
 .carousel-title {
     margin-left: 56%;
@@ -279,6 +278,7 @@ h2 {
     object-fit: cover;
     border: 3px solid #999;
     padding: 3px;
+    margin-top: 20px;
     margin-right: 20px;
     }
 
@@ -305,7 +305,7 @@ h3 {
     height: 240px;
     width: 440px;
     text-indent: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.25rem;
 }
 .text-indent {
     text-indent: 1rem;
@@ -343,6 +343,9 @@ h4 {
     height: 240px;
     text-indent: 1rem;
 }
+.profiletext p {
+    padding-top: 10px;
+}
 
 .img2 {
     width: 270px;
@@ -362,6 +365,7 @@ h4 {
     height: 180px;
     text-indent: 1rem;
     width: 520px;
+    line-height: 1.25rem;
 }
 .tab4,.tab5,.tab6,.tab7 {
     margin: 8px 16px none;
@@ -378,12 +382,13 @@ h4 {
     width: 440px;
     height: 540px;
     margin: 1rem;
-    padding: 20px;
+    padding: none 20px;
+    line-height: 1.25rem;
 }
 
 .imgframe {
     width: 312px;
-    height: 540px;
+    height: 580px;
     overflow: scroll;
     background-color: rgb(23, 20, 20);
     margin: auto;
