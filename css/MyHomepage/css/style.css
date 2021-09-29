@@ -235,7 +235,8 @@ header {
     text-align: center;
 }
 .tab2 {
-    margin-top: 8px
+    margin-top: 8px;
+    line-height: 1.8rem;
 }
 .hidden {
     width: 1px;
